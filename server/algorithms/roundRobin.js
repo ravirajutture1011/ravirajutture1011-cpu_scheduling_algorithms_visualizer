@@ -96,11 +96,4 @@ export function roundRobin(processesInput, timeQuantum) {
   };
 }
 
-// const processes = [
-//   { id: 'P1', arrivalTime: 0, burstTime: 4 },
-//   { id: 'P2', arrivalTime: 0, burstTime: 5 },
-//   { id: 'P3', arrivalTime: 0, burstTime: 3 },
-// ];
-
-// const result = roundRobin(processes, 2);
-// console.log(result);
+ 
