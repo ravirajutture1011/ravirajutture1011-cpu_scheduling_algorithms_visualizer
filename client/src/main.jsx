@@ -8,7 +8,7 @@ import { SchedulingProvider } from './SchedulingContext.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <SchedulingProvider>  {/* Wrap App here */}
+      <SchedulingProvider>  
         <App />
       </SchedulingProvider>
     </BrowserRouter>

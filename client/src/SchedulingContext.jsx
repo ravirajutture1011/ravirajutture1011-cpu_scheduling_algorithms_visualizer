@@ -5,7 +5,6 @@ const SchedulingContext = createContext();
 
 // Provider component
 export const SchedulingProvider = ({ children }) => {
-  // Example state: processes, selected algorithm, and maybe button disabled state
   const [processes, setProcesses] = useState(() => {
     // Initialize from localStorage if exists, else empty array
     const stored = localStorage.getItem("processes");
@@ -28,7 +27,7 @@ export const SchedulingProvider = ({ children }) => {
     localStorage.setItem("selectedAlgorithm", selectedAlgorithm);
   }, [selectedAlgorithm]);
 
-  // You can add more state here (e.g. results, metrics)
+ 
 
    const [selectedAlgorithms, setSelectedAlgorithms] = useState(() => {
     const stored = localStorage.getItem("selectedAlgorithms");
